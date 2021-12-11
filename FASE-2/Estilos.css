@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #e6e6e6;
+    
+}
+
+header, .main, .footer, .body{
+    width: 97%;
+    max-width: 5000px;
+    margin: 20px auto;
+}
+
+header nav{
+    background: #528FD5;
+    overflow: hidden;
+}
+
+header nav ul li{
+    list-style: none;
+}
+section article ul li{
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 20px 40px;
+    display: block;
+    color: red;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #303133;
+}
+
+section, .main, .articles {
+    width: 70%;
+    float: left;
+}
+
+.caja2 ul li, .caja3 ul li, .caja4 ul li{
+    display:none;
+    position:absolute;
+    min-width: 150px;
+}
+
+.caja2 a ul:hover > li {
+    display: block;
+}
+.caja3 a ul:hover > li {
+    display: block;
+}
+.caja4 a ul:hover > li {
+    display: block;
+}
+
+
+/*
+.caja1{
+    background-color: green;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px ;
+    left: 0px;
+    bottom: 0px;
+}
+
+.caja2{
+    width: 100px;
+    height: 130px;
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 63px;
+    bottom:0px;
+}
+
+.caja3{
+    width: 130px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 170px;
+    bottom:0px;
+}
+
+.caja4{
+    width: 140px;
+    height: 126px;
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 325px;
+    bottom:0px;
+}
+
+.caja5{
+    width: 110px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 490px;
+    bottom:0px;
+}
+*/
