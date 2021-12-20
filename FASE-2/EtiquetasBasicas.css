@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*----------------------------------------------------*/
+
+/*----------------- Cuerpo ---------------------------*/
+body {
+    background-color: #e6e6e6;
+    
+}
+
+body {
+    width: 98%;
+    max-width: 600px;
+    margin: 10px 20px;
+    height: 5500px;
+}
+/*-----------------------------------------------------*/
+/*------------------- logotipo ------------------------*/
+header div img{
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header div img{
+    position:fixed;
+    left: 20px;
+    top: 1px;
+}
+/*-----------------------------------------------------*/
+
+/*------------------ Menú de navegación ---------------*/
+
+header nav{
+    background: #528FD5;
+    /*background-color: gray;*/
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    position: fixed;
+    width: 1100px;
+    margin-left: 70px;
+    padding: 16px;
+    top: 1px;
+}
+
+header nav ul li a {
+    padding: 10px 40px;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+header nav ul li ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-align: start;
+}
+
+header nav ul li a:hover {
+    background: #303133;
+}
+
+header nav ul li{
+    float: left;
+    list-style: none;
+}
+
+nav li ul {
+    display: none;
+    position:fixed;
+    min-width: 140px;
+
+}
+
+nav li:hover > ul {
+    display: block;
+    background: chocolate;
+    float: left;
+}
+
+nav li ul > li {
+    display: none;
+    position:fixed;
+}
+
+nav li:hover > ul li{
+    display: contents;
+    float:left;
+}
+/*------------------------------------------------------*/
+
+section article {
+    background-color:#e6e6e6;
+    width: 800px;
+    margin: 60px;
+    margin-left: 200px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+section article ol li{
+    margin-left: 50px;
+
+}
+
+section article img {
+    margin-left: 120px;
+}
+
+
+/*--------------- pie de página --------------------*/
+footer{
+    font-size: 20px;
+    position: absolute;
+    left: 460px;
+}
+footer{
+    top: 5400px;
+    color: black;
+}
+/*---------------------------------------------------*/
+
+
+
